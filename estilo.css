@@ -1,0 +1,75 @@
+body {
+    background: rgba(0, 0, 0, 0.904);
+}
+
+footer {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 70%, rgba(255, 0, 0, 0.363) 100%);
+}
+
+
+/*Cards*/
+.card{
+    max-width: 100%;
+}
+.card .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    height: 450px;
+    width: 100%;
+    background-color: black;
+}
+.card .img-container .card-img-top{
+    height: 100%;
+    max-width: 100%;
+}
+
+.card-body{
+    min-height: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-around;
+}
+
+.card-title{
+    width: 100%;
+    text-align: center;
+}
+
+.card-body .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+
+.card-body a{
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+
+/*fim cards*/
+
+.btn-reload{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+
+.icon-btn{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: url(./imagens/arrow-refresh-reload-icon-29.png) no-repeat center;
+    background-size: 100% 100%; 
+    transition: all 0.5s;
+}
+
+.btn-reload:hover .icon-btn{
+    transform: rotate(360deg)
+}
